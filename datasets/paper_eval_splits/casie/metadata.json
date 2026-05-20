@@ -1,0 +1,14 @@
+{
+  "dataset": "casie",
+  "resolved_dataset": "casie",
+  "seed": 42,
+  "requested_test_sample_size": 50,
+  "source_split_count": 5,
+  "pooled_test_size": 1097,
+  "unique_test_size": 813,
+  "final_test_size": 50,
+  "copied_train_size": 1047,
+  "copied_dev_size": 218,
+  "source_dir": "/data/guoquanjiang/ACE_partial/datasets/processed_data/casie",
+  "output_dir": "/data/guoquanjiang/ACE_partial/datasets/paper_eval_splits/casie/split1"
+}

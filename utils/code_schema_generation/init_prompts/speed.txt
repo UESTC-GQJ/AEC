@@ -1,0 +1,28 @@
+@dataclass
+class Cure(Event):
+    mention: str
+
+@dataclass
+class Spread(Event):
+    mention: str
+
+@dataclass
+class Death(Event):
+    mention: str
+
+@dataclass
+class Infect(Event):
+    mention: str
+
+@dataclass
+class Control(Event):
+    mention: str
+
+@dataclass
+class Prevent(Event):
+    mention: str
+
+@dataclass
+class Symptom(Event):
+    mention: str
+

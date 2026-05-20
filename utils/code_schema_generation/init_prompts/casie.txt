@@ -1,0 +1,68 @@
+@dataclass
+class Databreach(AttackEvent):
+    mention: str
+    tool: List
+    number-of-data: List
+    damage-amount: List
+    attack-pattern: List
+    victim: List
+    attacker: List
+    time: List
+    purpose: List
+    compromised-data: List
+    place: List
+    number-of-victim: List
+
+@dataclass
+class Ransom(AttackEvent):
+    mention: str
+    tool: List
+    damage-amount: List
+    attack-pattern: List
+    victim: List
+    attacker: List
+    time: List
+    price: List
+    payment-method: List
+    place: List
+
+@dataclass
+class PatchVulnerability(VulnerabilityrelatedEvent):
+    mention: str
+    vulnerable_system_version: List
+    patch: List
+    cve: List
+    time: List
+    releaser: List
+    issues-addressed: List
+    patch-number: List
+    vulnerability: List
+    supported_platform: List
+    vulnerable_system: List
+
+@dataclass
+class DiscoverVulnerability(VulnerabilityrelatedEvent):
+    mention: str
+    vulnerable_system_version: List
+    cve: List
+    vulnerable_system_owner: List
+    time: List
+    capabilities: List
+    vulnerability: List
+    discoverer: List
+    supported_platform: List
+    vulnerable_system: List
+
+@dataclass
+class Phishing(AttackEvent):
+    mention: str
+    tool: List
+    damage-amount: List
+    attack-pattern: List
+    victim: List
+    trusted-entity: List
+    attacker: List
+    purpose: List
+    time: List
+    place: List
+

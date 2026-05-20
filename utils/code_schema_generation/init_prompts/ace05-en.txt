@@ -1,0 +1,236 @@
+@dataclass
+class Attack(ConflictEvent):
+    mention: str
+    target: List
+    victim: List
+    attacker: List
+    instrument: List
+    place: List
+    agent: List
+
+@dataclass
+class Die(LifeEvent):
+    mention: str
+    place: List
+    instrument: List
+    victim: List
+    person: List
+    agent: List
+
+@dataclass
+class Transport(MovementEvent):
+    mention: str
+    origin: List
+    victim: List
+    vehicle: List
+    artifact: List
+    destination: List
+    place: List
+    agent: List
+
+@dataclass
+class PhoneWrite(ContactEvent):
+    mention: str
+    entity: List
+    place: List
+
+@dataclass
+class ArrestJail(JusticeEvent):
+    mention: str
+    place: List
+    person: List
+    agent: List
+
+@dataclass
+class TransferOwnership(TransactionEvent):
+    mention: str
+    artifact: List
+    beneficiary: List
+    buyer: List
+    place: List
+    seller: List
+
+@dataclass
+class Meet(ContactEvent):
+    mention: str
+    entity: List
+    place: List
+
+@dataclass
+class Convict(JusticeEvent):
+    mention: str
+    adjudicator: List
+    place: List
+    defendant: List
+
+@dataclass
+class Appeal(JusticeEvent):
+    mention: str
+    adjudicator: List
+    plaintiff: List
+    place: List
+
+@dataclass
+class TrialHearing(JusticeEvent):
+    mention: str
+    adjudicator: List
+    prosecutor: List
+    defendant: List
+    place: List
+
+@dataclass
+class TransferMoney(TransactionEvent):
+    mention: str
+    giver: List
+    recipient: List
+    beneficiary: List
+    place: List
+
+@dataclass
+class Sentence(JusticeEvent):
+    mention: str
+    adjudicator: List
+    place: List
+    defendant: List
+
+@dataclass
+class Divorce(LifeEvent):
+    mention: str
+    place: List
+    person: List
+
+@dataclass
+class Acquit(JusticeEvent):
+    mention: str
+    adjudicator: List
+    defendant: List
+
+@dataclass
+class ReleaseParole(JusticeEvent):
+    mention: str
+    entity: List
+    place: List
+    person: List
+
+@dataclass
+class EndOrg(BusinessEvent):
+    mention: str
+    org: List
+    place: List
+
+@dataclass
+class Sue(JusticeEvent):
+    mention: str
+    adjudicator: List
+    plaintiff: List
+    defendant: List
+    place: List
+
+@dataclass
+class Elect(PersonnelEvent):
+    mention: str
+    entity: List
+    place: List
+    person: List
+
+@dataclass
+class EndPosition(PersonnelEvent):
+    mention: str
+    entity: List
+    place: List
+    person: List
+
+@dataclass
+class Injure(LifeEvent):
+    mention: str
+    victim: List
+    instrument: List
+    place: List
+    agent: List
+
+@dataclass
+class DeclareBankruptcy(BusinessEvent):
+    mention: str
+    org: List
+    place: List
+
+@dataclass
+class Marry(LifeEvent):
+    mention: str
+    place: List
+    person: List
+
+@dataclass
+class MergeOrg(BusinessEvent):
+    mention: str
+    org: List
+
+@dataclass
+class StartPosition(PersonnelEvent):
+    mention: str
+    entity: List
+    place: List
+    person: List
+
+@dataclass
+class ChargeIndict(JusticeEvent):
+    mention: str
+    adjudicator: List
+    prosecutor: List
+    defendant: List
+    place: List
+
+@dataclass
+class Fine(JusticeEvent):
+    mention: str
+    adjudicator: List
+    entity: List
+    place: List
+
+@dataclass
+class BeBorn(LifeEvent):
+    mention: str
+    place: List
+    person: List
+
+@dataclass
+class Demonstrate(ConflictEvent):
+    mention: str
+    entity: List
+    place: List
+
+@dataclass
+class Execute(JusticeEvent):
+    mention: str
+    place: List
+    person: List
+    agent: List
+
+@dataclass
+class Nominate(PersonnelEvent):
+    mention: str
+    person: List
+    agent: List
+
+@dataclass
+class StartOrg(BusinessEvent):
+    mention: str
+    org: List
+    place: List
+    agent: List
+
+@dataclass
+class Extradite(JusticeEvent):
+    mention: str
+    origin: List
+    destination: List
+    person: List
+    agent: List
+
+@dataclass
+class Pardon(JusticeEvent):
+    mention: str
+    adjudicator: List
+    place: List
+    defendant: List
+

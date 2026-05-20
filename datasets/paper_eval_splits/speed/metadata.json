@@ -1,0 +1,14 @@
+{
+  "dataset": "speed",
+  "resolved_dataset": "speed",
+  "seed": 42,
+  "requested_test_sample_size": 250,
+  "source_split_count": 5,
+  "pooled_test_size": 1975,
+  "unique_test_size": 1327,
+  "final_test_size": 250,
+  "copied_train_size": 1185,
+  "copied_dev_size": 395,
+  "source_dir": "/data/guoquanjiang/ACE_partial/datasets/processed_data/speed",
+  "output_dir": "/data/guoquanjiang/ACE_partial/datasets/paper_eval_splits/speed/split1"
+}

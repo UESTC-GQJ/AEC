@@ -1,0 +1,14 @@
+{
+  "dataset": "genia2011",
+  "resolved_dataset": "genia2013",
+  "seed": 42,
+  "requested_test_sample_size": 250,
+  "source_split_count": 5,
+  "pooled_test_size": 656,
+  "unique_test_size": 500,
+  "final_test_size": 250,
+  "copied_train_size": 420,
+  "copied_dev_size": 105,
+  "source_dir": "/data/guoquanjiang/ACE_partial/datasets/processed_data/genia2013",
+  "output_dir": "/data/guoquanjiang/ACE_partial/datasets/paper_eval_splits/genia2013/split1"
+}

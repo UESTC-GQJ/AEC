@@ -1,0 +1,39 @@
+# Local models and experiment outputs
+models/
+results/
+
+# Python cache and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments and local config
+.env
+.env.*
+.venv/
+venv/
+
+# IDE / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Large local model/checkpoint artifacts
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors

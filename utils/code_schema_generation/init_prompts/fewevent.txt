@@ -1,0 +1,400 @@
+@dataclass
+class Collaboration(BusinessEvent):
+    mention: str
+
+@dataclass
+class DeclareBankruptcy(BusinessEvent):
+    mention: str
+
+@dataclass
+class Employment(BusinessEvent):
+    mention: str
+
+@dataclass
+class EmploymentTenure(BusinessEvent):
+    mention: str
+
+@dataclass
+class EndOrg(BusinessEvent):
+    mention: str
+
+@dataclass
+class Financing(BusinessEvent):
+    mention: str
+
+@dataclass
+class Investment(BusinessEvent):
+    mention: str
+
+@dataclass
+class Layoff(BusinessEvent):
+    mention: str
+
+@dataclass
+class MergeOrg(BusinessEvent):
+    mention: str
+
+@dataclass
+class Sponsorship(BusinessEvent):
+    mention: str
+
+@dataclass
+class StartOrg(BusinessEvent):
+    mention: str
+
+@dataclass
+class StartSubsidiary(BusinessEvent):
+    mention: str
+
+@dataclass
+class Attack(ConflictEvent):
+    mention: str
+
+@dataclass
+class Demonstrate(ConflictEvent):
+    mention: str
+
+@dataclass
+class Riot(ConflictEvent):
+    mention: str
+
+@dataclass
+class SelfImmolation(ConflictEvent):
+    mention: str
+
+@dataclass
+class Broadcast(ContactEvent):
+    mention: str
+
+@dataclass
+class Contact(ContactEvent):
+    mention: str
+
+@dataclass
+class Correspondence(ContactEvent):
+    mention: str
+
+@dataclass
+class EMail(ContactEvent):
+    mention: str
+
+@dataclass
+class LetterCommunication(ContactEvent):
+    mention: str
+
+@dataclass
+class Meet(ContactEvent):
+    mention: str
+
+@dataclass
+class OnlineChat(ContactEvent):
+    mention: str
+
+@dataclass
+class PhoneWrite(ContactEvent):
+    mention: str
+
+@dataclass
+class VideoChat(ContactEvent):
+    mention: str
+
+@dataclass
+class VoiceMail(ContactEvent):
+    mention: str
+
+@dataclass
+class Education(EducationEvent):
+    mention: str
+
+@dataclass
+class DubbingPerformance(FilmEvent):
+    mention: str
+
+@dataclass
+class FilmCrewGig(FilmEvent):
+    mention: str
+
+@dataclass
+class FilmDistribution(FilmEvent):
+    mention: str
+
+@dataclass
+class FilmFestival(FilmEvent):
+    mention: str
+
+@dataclass
+class FilmProduction(FilmEvent):
+    mention: str
+
+@dataclass
+class Acquit(JusticeEvent):
+    mention: str
+
+@dataclass
+class Appeal(JusticeEvent):
+    mention: str
+
+@dataclass
+class ArrestJail(JusticeEvent):
+    mention: str
+
+@dataclass
+class ChargeIndict(JusticeEvent):
+    mention: str
+
+@dataclass
+class Convict(JusticeEvent):
+    mention: str
+
+@dataclass
+class Execute(JusticeEvent):
+    mention: str
+
+@dataclass
+class Extradite(JusticeEvent):
+    mention: str
+
+@dataclass
+class Fine(JusticeEvent):
+    mention: str
+
+@dataclass
+class Pardon(JusticeEvent):
+    mention: str
+
+@dataclass
+class ReleaseParole(JusticeEvent):
+    mention: str
+
+@dataclass
+class Sentence(JusticeEvent):
+    mention: str
+
+@dataclass
+class Sue(JusticeEvent):
+    mention: str
+
+@dataclass
+class TrialHearing(JusticeEvent):
+    mention: str
+
+@dataclass
+class Abortion(LifeEvent):
+    mention: str
+
+@dataclass
+class BeBorn(LifeEvent):
+    mention: str
+
+@dataclass
+class Die(LifeEvent):
+    mention: str
+
+@dataclass
+class Divorce(LifeEvent):
+    mention: str
+
+@dataclass
+class Homesick(LifeEvent):
+    mention: str
+
+@dataclass
+class Injure(LifeEvent):
+    mention: str
+
+@dataclass
+class Marry(LifeEvent):
+    mention: str
+
+@dataclass
+class Pregnancy(LifeEvent):
+    mention: str
+
+@dataclass
+class Sick(LifeEvent):
+    mention: str
+
+@dataclass
+class Travel(LifeEvent):
+    mention: str
+
+@dataclass
+class Artifact(ManufactureEvent):
+    mention: str
+
+@dataclass
+class LeanManufacturing(ManufactureEvent):
+    mention: str
+
+@dataclass
+class MilitaryCommand(MilitaryEvent):
+    mention: str
+
+@dataclass
+class MilitaryService(MilitaryEvent):
+    mention: str
+
+@dataclass
+class RecruitTraining(MilitaryEvent):
+    mention: str
+
+@dataclass
+class Recruitment(MilitaryEvent):
+    mention: str
+
+@dataclass
+class Driving(MovementEvent):
+    mention: str
+
+@dataclass
+class Parking(MovementEvent):
+    mention: str
+
+@dataclass
+class Transport(MovementEvent):
+    mention: str
+
+@dataclass
+class TransportArtifact(MovementEvent):
+    mention: str
+
+@dataclass
+class Transportperson(MovementEvent):
+    mention: str
+
+@dataclass
+class Compose(MusicEvent):
+    mention: str
+
+@dataclass
+class Dance(MusicEvent):
+    mention: str
+
+@dataclass
+class GroupMembership(MusicEvent):
+    mention: str
+
+@dataclass
+class Sing(MusicEvent):
+    mention: str
+
+@dataclass
+class ClosingCeremony(OlympicsEvent):
+    mention: str
+
+@dataclass
+class OlympicAthleteAffiliation(OlympicsEvent):
+    mention: str
+
+@dataclass
+class OlympicMedalHonor(OlympicsEvent):
+    mention: str
+
+@dataclass
+class OpeningCeremony(OlympicsEvent):
+    mention: str
+
+@dataclass
+class DivisionOfLabour(OrganizationEvent):
+    mention: str
+
+@dataclass
+class Leadership(OrganizationEvent):
+    mention: str
+
+@dataclass
+class OrgCommunication(OrganizationEvent):
+    mention: str
+
+@dataclass
+class OrganizationBoardMembership(OrganizationEvent):
+    mention: str
+
+@dataclass
+class Appointment(PeopleEvent):
+    mention: str
+
+@dataclass
+class PlaceLived(PeopleEvent):
+    mention: str
+
+@dataclass
+class Demotion(PersonnelEvent):
+    mention: str
+
+@dataclass
+class Elect(PersonnelEvent):
+    mention: str
+
+@dataclass
+class EndPosition(PersonnelEvent):
+    mention: str
+
+@dataclass
+class Nominate(PersonnelEvent):
+    mention: str
+
+@dataclass
+class PerformanceAppraisal(PersonnelEvent):
+    mention: str
+
+@dataclass
+class Promotion(PersonnelEvent):
+    mention: str
+
+@dataclass
+class Resignation(PersonnelEvent):
+    mention: str
+
+@dataclass
+class StartPosition(PersonnelEvent):
+    mention: str
+
+@dataclass
+class ProjectParticipation(ProjectsEvent):
+    mention: str
+
+@dataclass
+class FairPlay(SportsEvent):
+    mention: str
+
+@dataclass
+class SportsTeamRoster(SportsEvent):
+    mention: str
+
+@dataclass
+class SportsTeamSeasonRecord(SportsEvent):
+    mention: str
+
+@dataclass
+class Tournament(SportsEvent):
+    mention: str
+
+@dataclass
+class Deposit(TransactionEvent):
+    mention: str
+
+@dataclass
+class MoneyLaundering(TransactionEvent):
+    mention: str
+
+@dataclass
+class Transaction(TransactionEvent):
+    mention: str
+
+@dataclass
+class TransferMoney(TransactionEvent):
+    mention: str
+
+@dataclass
+class TransferOwnership(TransactionEvent):
+    mention: str
+
+@dataclass
+class GrapeVarietyComposition(WineEvent):
+    mention: str
+
+@dataclass
+class TrackContribution(MusicEvent):
+    mention: str
+

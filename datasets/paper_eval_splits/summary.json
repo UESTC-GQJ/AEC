@@ -1,0 +1,76 @@
+{
+  "seed": 42,
+  "processed_data_dir": "/data/guoquanjiang/ACE_partial/datasets/processed_data",
+  "output_dir": "/data/guoquanjiang/ACE_partial/datasets/paper_eval_splits",
+  "datasets_requested": [
+    "genia2011",
+    "fewevent",
+    "speed",
+    "casie"
+  ],
+  "datasets_built": [
+    "genia2011",
+    "fewevent",
+    "speed",
+    "casie"
+  ],
+  "failures": [],
+  "metadata": [
+    {
+      "dataset": "genia2011",
+      "resolved_dataset": "genia2013",
+      "seed": 42,
+      "requested_test_sample_size": 250,
+      "source_split_count": 5,
+      "pooled_test_size": 656,
+      "unique_test_size": 500,
+      "final_test_size": 250,
+      "copied_train_size": 420,
+      "copied_dev_size": 105,
+      "source_dir": "/data/guoquanjiang/ACE_partial/datasets/processed_data/genia2013",
+      "output_dir": "/data/guoquanjiang/ACE_partial/datasets/paper_eval_splits/genia2013/split1"
+    },
+    {
+      "dataset": "fewevent",
+      "resolved_dataset": "fewevent",
+      "seed": 42,
+      "requested_test_sample_size": 250,
+      "source_split_count": 5,
+      "pooled_test_size": 12705,
+      "unique_test_size": 9986,
+      "final_test_size": 250,
+      "copied_train_size": 7579,
+      "copied_dev_size": 2513,
+      "source_dir": "/data/guoquanjiang/ACE_partial/datasets/processed_data/fewevent",
+      "output_dir": "/data/guoquanjiang/ACE_partial/datasets/paper_eval_splits/fewevent/split1"
+    },
+    {
+      "dataset": "speed",
+      "resolved_dataset": "speed",
+      "seed": 42,
+      "requested_test_sample_size": 250,
+      "source_split_count": 5,
+      "pooled_test_size": 1975,
+      "unique_test_size": 1327,
+      "final_test_size": 250,
+      "copied_train_size": 1185,
+      "copied_dev_size": 395,
+      "source_dir": "/data/guoquanjiang/ACE_partial/datasets/processed_data/speed",
+      "output_dir": "/data/guoquanjiang/ACE_partial/datasets/paper_eval_splits/speed/split1"
+    },
+    {
+      "dataset": "casie",
+      "resolved_dataset": "casie",
+      "seed": 42,
+      "requested_test_sample_size": 50,
+      "source_split_count": 5,
+      "pooled_test_size": 1097,
+      "unique_test_size": 813,
+      "final_test_size": 50,
+      "copied_train_size": 1047,
+      "copied_dev_size": 218,
+      "source_dir": "/data/guoquanjiang/ACE_partial/datasets/processed_data/casie",
+      "output_dir": "/data/guoquanjiang/ACE_partial/datasets/paper_eval_splits/casie/split1"
+    }
+  ]
+}

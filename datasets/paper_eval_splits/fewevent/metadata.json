@@ -1,0 +1,14 @@
+{
+  "dataset": "fewevent",
+  "resolved_dataset": "fewevent",
+  "seed": 42,
+  "requested_test_sample_size": 250,
+  "source_split_count": 5,
+  "pooled_test_size": 12705,
+  "unique_test_size": 9986,
+  "final_test_size": 250,
+  "copied_train_size": 7579,
+  "copied_dev_size": 2513,
+  "source_dir": "/data/guoquanjiang/ACE_partial/datasets/processed_data/fewevent",
+  "output_dir": "/data/guoquanjiang/ACE_partial/datasets/paper_eval_splits/fewevent/split1"
+}
